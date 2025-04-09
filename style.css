@@ -1,1 +1,35 @@
-*
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+:root{
+    --black:#141414;
+    --dark-grey: #1f1f1f;
+    --white: #fff;
+
+}
+body{
+    background-color: var(--black);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+    div{
+        background-color: var(--dark-grey);
+        color: var(--white)
+        width: 384x
+    text-aling: center;
+    border-radius: 12xp;
+    padding: 40xp;
+    }
+
+   ul, li {
+list-style: none;
+   }
